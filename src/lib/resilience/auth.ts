@@ -1,8 +1,8 @@
-import { timingSafeEqualString } from "../timingSafeEqual.js";
+import { timingSafeEqualString } from "../timingSafeEqual.ts";
 import {
   SlidingWindowRateLimiter,
   type RateLimitOptions,
-} from "./rateLimit.js";
+} from "./rateLimit.ts";
 
 /**
  * Outcome of an auth check. `ok: false` carries the HTTP status and a reason

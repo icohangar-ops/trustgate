@@ -8,11 +8,11 @@
  * 429/5xx + network errors, optional SSRF allowlist) and requireAuth /
  * requireAuthResponse (fail-closed bearer-token gate).
  */
-export { safeFetch } from "./safeFetch.js";
-export type { SafeFetchOptions, AllowlistHook } from "./safeFetch.js";
-export { requireAuth, requireAuthResponse } from "./auth.js";
-export type { AuthResult, RequireAuthOptions } from "./auth.js";
-export { ResilienceError, isResilienceError } from "./errors.js";
-export type { ResilienceErrorKind } from "./errors.js";
-export { retry } from "./retry.js";
-export { withTimeout } from "./timeout.js";
+export { safeFetch } from "./safeFetch.ts";
+export type { SafeFetchOptions, AllowlistHook } from "./safeFetch.ts";
+export { requireAuth, requireAuthResponse } from "./auth.ts";
+export type { AuthResult, RequireAuthOptions } from "./auth.ts";
+export { ResilienceError, isResilienceError } from "./errors.ts";
+export type { ResilienceErrorKind } from "./errors.ts";
+export { retry } from "./retry.ts";
+export { withTimeout } from "./timeout.ts";

@@ -1,4 +1,4 @@
-import { ResilienceError } from "./errors.js";
+import { ResilienceError } from "./errors.ts";
 
 export interface RetryOptions {
   /** Maximum number of attempts (including the first). Default 3. */
