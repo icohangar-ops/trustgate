@@ -1,4 +1,4 @@
-import { ResilienceError } from "./errors.js";
+import { ResilienceError } from "./errors.ts";
 
 /**
  * Race a promise against a timeout.

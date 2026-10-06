@@ -1,5 +1,5 @@
-import { ResilienceError } from "./errors.js";
-import { retry } from "./retry.js";
+import { ResilienceError } from "./errors.ts";
+import { retry } from "./retry.ts";
 
 /**
  * SSRF allowlist hook. Return `true` to allow the request to `url`, `false`
